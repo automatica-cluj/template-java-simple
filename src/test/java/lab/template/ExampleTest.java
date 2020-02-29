@@ -14,9 +14,4 @@ public class ExampleTest {
         assertEquals("Should add 2 numbers", 30, Example.add(10,20));
     }
 
-    @Test
-    public void testSubstract(){
-        assertEquals("Should substract 2 numbers", 5, Example.substract(15,10));
-    }
-
 }

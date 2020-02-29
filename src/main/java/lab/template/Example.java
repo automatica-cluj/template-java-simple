@@ -20,16 +20,8 @@ public class Example {
         return x + y;
     }
 
-    public static int substract(int x, int y){
-        return 0;
-    }
 
     public static void main(String[] args) {
         System.out.println("It works!");
-        LOG.info("It works!");
-        System.out.println("Number of arguments received: "+args.length+" ");
-        for(String arg:args)
-            System.out.println("Argument: "+arg);
-        System.out.printf("Result of adding %d with %d is: %d\n\n",10,23,Example.add(10,23));
     }
 }
